@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(185, 185, 231);
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.header {
+  padding: 10px;
+  width: 100vw;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5vw;
+}
+
+.btn-to_garage, .btn-to_winners {
+  background-color: #1e75ba;
+  color: #ffffffc9;
+  border: 2px solid #33465a;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 0 0 2px #9E9E9E;
+}
+
+.garage-page {
+  display: flex;
+  flex-direction: column;
+}
+.generate-cars {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3vh;
+  margin-left: 1vw
+}
+
+.title {
+  margin-bottom: 1vh;
+  margin-left: 1vw;
+}
+
+.car {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1vh;
+  border-bottom: 3px dashed white;
+}
+
+.cars-options_title {
+  font-size: 0.7em;
+  margin-left: 1vw;
+  color: #f4f407;
+}
+
+.car .cars-options_select-btn, .car .cars-options_remove-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 9px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 7vw;
+  height: 3vh;
+  text-transform: uppercase;
+  font-size: 0.6vw;
+}
+
+ .cars-options_select-btn {
+  margin-right: 0.5vw
+}
+
+.cars-control, .cars-options {
+  display: flex;
+  flex-direction: row;
+  margin: 0.4vh 0;
+  width: 98vw;
+}
+
+.cars-control .car-control_start-btn, .cars-control .car-control_stop-btn {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 2px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 3.5vw;
+  height: 2vh;
+  font-size: 0.5vw;
+}
+
+.cars-control .car-control_stop-btn {
+  background-color: #dc3545;
+  margin-left: 0.2vw;
+}
+
+.flag {
+  width: 3vw;
+  height: 4vh;
+  background: url(assets/flag.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 80vw;
+}
+.carss {
+  width: 4vw;
+  height: 4vh;
+  margin-left: 1vw;
+}
+.garage-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-winners {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-winners th, .table-winners td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 2vh;
+}
+
+.pagination button {
+  background-color: #a59825;
+  color: #fff;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  margin-left: 1vw;
+  width: 7vw;
+  height: 3vh;
+  text-transform: uppercase;
+  font-size: 0.6vw;
+}
+
+.hide {
+  display: none;
+}
+button:disabled {
+  background-color: rgba(128, 128, 128, 0.81);
+}
+.car-container .car {
+  display: flex;
+  flex-direction: column;
+}
+.text-create, .text-update {
+  width: 16vw;
+  height: 3vh;
+}
+.color-create, .color-update {
+  width: 3vw;
+  height: 3vh;
+}
+.button-create, .button-update, .btn-race, .btn-reset {
+  background-color: #61c8f7;
+  color: #fff;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  width: 7vw;
+  height: 3vh;
+  text-transform: uppercase;
+  font-size: 0.6vw;
+}
+.button-create {
+  margin-bottom: 0.3vw;
+}
+.btn-generate_cars {
+  background-color: #61c8f7;
+  width: 12vw;
+  height: 3vh;
+  color: #fff;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  font-size: 0.6vw;
+}
+.winner-notice {
+  width: 60vw;
+  height: 10vh;
+  font-size: 4vw;
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  color: rgb(48, 107, 162);
+  text-shadow: gold 1px -2px;
+}
+.generate-text {
+  width: 13vw;
+  height: 2.3vh;
+}
+
+.generate-color {
+  width: 2.8vw;
+  height: 2.5vh;
+}
+.sort-arrow {
+  font-size: 15px;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.sort-arrow[data-sort-direction="desc"] {
+  transform: rotate(180deg);
+}

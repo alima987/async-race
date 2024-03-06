@@ -2,6 +2,7 @@
 <a align="center" href="https://github.com/rolling-scopes-school/alima987-JSFE2023Q1/pull/40">Ссылка на Pull Request с личного репозитория школы RSSchool (это приватный репозиторий школы, поэтому ссылка может не работать, так как нет доступа)</a>
 <div align="center">
  <h4>Скриншот Pull Request Async Race</h4>
+ <details><summary><b>Развернуть</b></summary>
 <img width="960" alt="image" src="https://github.com/alima987/async-race/assets/113354079/990e57a9-d3a6-44fe-9d5c-9e4cfcb43c38" />
  </div>
 <div align="center">

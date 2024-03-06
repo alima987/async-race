@@ -1,5 +1,7 @@
 <h4 align="center">Async Race перезалила со своего личного репозитория школы RSSchool</h4>
-<a align="center" href="https://github.com/rolling-scopes-school/alima987-JSFE2023Q1/pull/40">Ссылка на Pull Request с личного репозитория школы RSSchool (это приватный репозиторий школы, поэтому ссылка может не работать, так как нет доступа)</a>
+<h4 align="center">Ссылка на Pull Request с личного репозитория школы RSSchool</h4>
+<details><summary><b>Развернуть</b></summary>
+<a align="center" href="https://github.com/rolling-scopes-school/alima987-JSFE2023Q1/pull/40">(это приватный репозиторий школы, поэтому ссылка может не работать, так как нет доступа)</a>
 <div align="center">
  <h4>Скриншот Pull Request Async Race</h4>
  <details><summary><b>Развернуть</b></summary>
